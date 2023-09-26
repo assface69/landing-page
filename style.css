@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     flex:1;
     margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .headcontainer{
     display: flex;
@@ -125,4 +126,48 @@ button{
     padding: 60px;
     justify-content: center;
     background-color: #e5e7eb;
+}
+.actioncon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.act-text{
+    display: flex;
+    padding:25px 50px;
+     background-color:#3882f6;
+    width: fit-content;
+    color: #f9faf8;
+    gap:80px;
+    max-width:680px;
+    border-radius: 6px;
+    margin: 60px 0px;
+    width: fit-content;
+  
+    
+}
+.call{
+    font-weight: bold;
+    font-size: large;
+}
+
+.sign{
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #e5e7eb;
+}
+.act-text button{
+    color: #f9faf8;
+    border-radius: 4px;
+   
+    border: 1px solid #f9faf8;
+}
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 40px;
 }
